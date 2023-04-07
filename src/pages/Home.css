@@ -1,0 +1,57 @@
+.home {
+    display : flex;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+
+.home__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.home__headerLeft {
+    display: flex;
+    align-items: center;
+}
+
+.home__headerLeft p {
+    margin-left: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.home__headerRight {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.home__headerRight p {
+    margin-right: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.home__headerRight>svg {
+    margin-left: 10px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.home__body {
+    flex: 1;
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+}
+
+.google-icon {
+    cursor: pointer;
+}
+
+.home__body img {
+    object-fit: contain;
+    height: 100px;
+}
